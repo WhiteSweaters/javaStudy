@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--    导入spring的坐标 spring-context-->
+
+    <!--   setter方法注入 配置bean (通过构造方法的形式)-->
+    <bean class="info.whitesweater.test01.service.impl.UserServiceImpl" id="userService">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+    <bean class="info.whitesweater.test01.dao.impl.UserDaoImpl" id="userDao"/>
+
+<!--    构造器注入-->
+
+    <bean id="userDao6" class="info.whitesweater.test03.dao.impl.UserDaoImpl"/>
+    <bean id="userService6" class="info.whitesweater.test03.service.impl.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao6"/>
+    </bean>
+
+
+
+
+    <bean id="userDao2" class="info.whitesweater.test02.dao.impl.UserDaoImpl" name="userDap2 userDao3">
+        <property name="dataBaseName" value="mysql"/>
+        <property name="connectNum" value="10"/>
+    </bean>
+    <bean id="userService2" class="info.whitesweater.test02.service.impl.UserServiceImpl" name="userService5 userService3" init-method="init" destroy-method="destroy">
+        <property name="userDao" ref="userDao2"/>
+    </bean>
+
+<!--    方式二：通过静态工厂构造Bean-->
+<!--    <bean id="orderDao" class="info.whitesweater.test02.factory.OrderFactory" factory-method="getOrderDao"/>-->
+
+<!--    方式三：实例工厂-->
+<!--    <bean id="orderFactory" class="info.whitesweater.test02.factory.OrderFactory"/>
+    <bean id="orderDao" factory-bean="orderFactory" factory-method="getOrderDao1"/>-->
+
+<!--    方式四  改良方式三-->
+<!--    <bean id="orderDao" class="info.whitesweater.test02.factory.OrderBeanFactory"/>-->
+
+
+</beans>

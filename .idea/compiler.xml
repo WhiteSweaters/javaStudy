@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbase-study01" />
+        <module name="spring-mybatis" />
+        <module name="springbase-study02" />
+        <module name="concurrent-study" />
+        <module name="spring-translation" />
+        <module name="maven" />
+        <module name="springmvc-base" />
+        <module name="mybatis-demo" />
+        <module name="spring-aop" />
+        <module name="springbase-study03" />
+        <module name="spring-study" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="concurrent-study" target="1.8" />
+      <module name="maven" target="8" />
+      <module name="mybatis-demo" target="1.5" />
+      <module name="spring-aop" target="1.5" />
+      <module name="spring-mybatis" target="1.5" />
+      <module name="spring-study" target="1.8" />
+      <module name="spring-translation" target="1.5" />
+      <module name="springbase-study01" target="1.5" />
+      <module name="springbase-study02" target="1.5" />
+      <module name="springbase-study03" target="1.5" />
+      <module name="springmvc-base" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-study" options="-parameters" />
+    </option>
+  </component>
+</project>

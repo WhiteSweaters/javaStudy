@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collections-study/collections-study.iml" filepath="$PROJECT_DIR$/collections-study/collections-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-study/concurrent-study.iml" filepath="$PROJECT_DIR$/concurrent-study/concurrent-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-study.iml" filepath="$PROJECT_DIR$/java-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study/spring-study.iml" filepath="$PROJECT_DIR$/spring-study/spring-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-translation/spring-translation.iml" filepath="$PROJECT_DIR$/spring-translation/spring-translation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbase-study01/springbase-study01.iml" filepath="$PROJECT_DIR$/springbase-study01/springbase-study01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbase-study02/springbase-study02.iml" filepath="$PROJECT_DIR$/springbase-study02/springbase-study02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbase-study03/springbase-study03.iml" filepath="$PROJECT_DIR$/springbase-study03/springbase-study03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-base/springmvc-base.iml" filepath="$PROJECT_DIR$/springmvc-base/springmvc-base.iml" />
+    </modules>
+  </component>
+</project>
